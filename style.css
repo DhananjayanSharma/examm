@@ -1,0 +1,223 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: auto;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin-left: 100px;
+  align-items: center;
+
+}
+
+#logo {
+
+  font-size: 60px;
+  color: #cf2c2c;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 10px 30px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 21px;
+}
+
+.link:hover {
+  color: #d25f01;
+}
+
+#img1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+#guide {
+  font-size: 19px;
+  color: black;
+}
+
+.head1 {
+  float: right;
+  margin-top: 40px;
+  font-size: 100px;
+  color: rgb(215, 203, 203);
+
+}
+
+.head2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(215, 203, 203);
+  font-size: 50px;
+  float: right;
+  margin-top: -570px;
+
+}
+
+.head3 {
+  float: right;
+  margin-top: -450px;
+  font-size: 50px;
+  color: rgb(215, 203, 203);
+
+}
+
+.headyour {
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(215, 203, 203);
+  font-size: 50px;
+  float: right;
+  margin-top: -400px;
+
+}
+
+.head4 {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  margin: -200px;
+}
+
+/* .card1{
+  width: 40px;
+  height: 50px;
+  background-color: antiquewhite;
+  border: 1px solid gray;
+ 
+} */
+
+.card-container {
+  display: flex;
+  padding: 3rem;
+  margin-top: 200px;
+  margin-left: 100px;
+
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+}
+
+.card-img {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+.houseboat {
+  margin: 350px;
+  margin-top: -200px;
+  font-size: 80px;
+  color: #ffffff;
+}
+.kerala{
+  margin-top: -250px;
+}
+.kerala li{
+  
+  display: inline;
+}
+.northcard{
+  width: 300px;
+  height: 400px;
+  background: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5px;
+  
+  /* border-radius: 10px; */
+ 
+}
+.north{
+  display: flex;
+  margin-left: 100px;
+}
+.premiumcard{
+  width: 200px;
+  height: 300px;
+  background: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 90px;
+}
+.footer{
+  margin-top: 20px;
+  background-color: #002a57;
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+.icons{
+  margin-left: 300px; 
+  margin-top: 10px;
+  font-size: 30px; 
+  color: white;
+}
+.fimage{
+  margin-left: 450px;
+  margin-top: 50px;
+
+}
